@@ -35,6 +35,7 @@ repos=(
     "https://github.com/openedx/frontend-app-publisher.git"
     "https://github.com/openedx/edx-analytics-dashboard.git"
     "https://github.com/openedx/edx-analytics-data-api.git"
+    "https://github.com/ruzniaievdm/mymfe.git"
 )
 
 non_release_repos=(
@@ -64,6 +65,7 @@ ssh_repos=(
     "git@github.com:openedx/frontend-app-publisher.git"
     "git@github.com:openedx/edx-analytics-dashboard.git"
     "git@github.com:openedx/edx-analytics-data-api.git"
+    "git@github.com:ruzniaievdm/mymfe.git"
 )
 
 non_release_ssh_repos=(
