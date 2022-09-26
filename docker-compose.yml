@@ -780,6 +780,22 @@ services:
       - lms
       - studio
 
+  frontend-app-mymfe:
+    extends:
+      file: microfrontend.yml
+      service: microfrontend
+    working_dir: '/edx/app/frontend-app-mymfe'
+    container_name: "edx.${COMPOSE_PROJECT_NAME:-devstack}.frontend-app-mymfe"
+    networks:
+      default:
+        aliases:
+          - edx.devstack.frontend-app-mymfe
+    ports:
+      - "3003:3003"
+    depends_on:
+      - lms
+      - studio
+
   frontend-app-payment:
     extends:
       file: microfrontend.yml

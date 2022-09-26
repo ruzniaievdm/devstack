@@ -316,6 +316,8 @@ Instead of a service name or list, you can also run commands like ``make dev.pro
 +------------------------------------+-------------------------------------+----------------+--------------+
 | `frontend-app-library-authoring`_  | http://localhost:3001/              | MFE (React.js) | Extra        |
 +------------------------------------+-------------------------------------+----------------+--------------+
+| `frontend-app-mymfe`_              | http://localhost:3003/              | MFE (React.js) | Extra        |
++------------------------------------+-------------------------------------+----------------+--------------+
 | `frontend-app-course-authoring`_   | http://localhost:2001/              | MFE (React.js) | Extra        |
 +------------------------------------+-------------------------------------+----------------+--------------+
 | `frontend-app-account`_            | http://localhost:1997/              | MFE (React.js) | Extra        |
